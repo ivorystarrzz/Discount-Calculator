@@ -1,0 +1,76 @@
+
+.title{
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+}
+
+div#box.wrapper{
+    max-width: 100%;
+    background: #851d41;  
+}
+
+
+.wrapper{
+    display: grid;
+    justify-items: center;
+   
+
+    max-width: 50%;
+    margin: auto;
+
+    padding: 1em;
+
+    position: relative;
+    top: 150px;
+}
+
+
+
+
+.btn{
+    width: 285px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    background-color: #fff !important;
+    color: gray !important;
+}
+
+
+input[type=text]{
+    font-size: 18px;
+    height: 45px;
+    padding: 5px;
+    width: 285px;
+    font-size: 16px !important;
+    text-align: center;
+}
+
+.results{
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    width: 285px;
+    margin-top: 10px;
+    background: #fff;
+}
+
+
+.resultText{
+    color: gray !important;
+    font-weight: bold;
+    font-family: 'Sora', sans-serif;
+}
+
+
+#deducted, #newPrice {
+    font-weight: bold;
+    color: #383334;
+}
+
+input{
+    border:none;
+    border-bottom:1px solid #757575;
+    background: none;
+}
